@@ -1,5 +1,5 @@
 # aws_agent
-[![Build Status](https://travis-ci.org/shazi7804/puppet-aws_agent.svg?branch=master)](https://travis-ci.org/shazi7804/puppet-aws_agent)
+[![Build Status](https://travis-ci.org/104corp/puppet-corp104_aws_agent.svg?branch=master)](https://travis-ci.org/104corp/puppet-corp104_aws_agent)
 
 #### Table of Contents
 
@@ -88,3 +88,22 @@ Data type: String.
 Connect timeout use of agents to download the source code
 
 Default value: `60`
+
+## Limitations
+
+This module has been tested platform on:
+
+* Red Hat Enterprise Linux (RHEL) 6, 7
+* CentOS 6, 7
+* Debian 6, 7
+* Ubuntu 16.04
+
+## Development
+
+Puppet modules on the Puppet Forge are open projects, and community contributions are essential for keeping them great. Please follow our guidelines when contributing changes.
+
+For more information, see our [module contribution guide.](https://docs.puppetlabs.com/forge/contributing.html)
+
+### Contributors
+
+To see who's already involved, see the [list of contributors.](https://github.com/puppetlabs/puppetlabs-ntp/graphs/contributors)
