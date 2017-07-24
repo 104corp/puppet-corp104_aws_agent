@@ -1,4 +1,4 @@
-# aws_agent
+# puppet module corp104_aws_agent
 [![Build Status](https://travis-ci.org/104corp/puppet-corp104_aws_agent.svg?branch=master)](https://travis-ci.org/104corp/puppet-corp104_aws_agent)
 
 #### Table of Contents
