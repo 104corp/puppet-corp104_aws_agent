@@ -1,5 +1,5 @@
 {
-  "name": "corp104-aws_agent",
+  "name": "corp104-corp104_aws_agent",
   "version": "0.1.4",
   "author": "corp104",
   "summary": "Install, deploysm, and configures AWS agent services.",
@@ -8,10 +8,6 @@
   "project_page": "https://github.com/104corp/puppet-corp104_aws_agent",
   "issues_url": "https://github.com/104corp/puppet-corp104_aws_agent/issues",
   "dependencies": [
-    {
-      "name":"puppetlabs-stdlib",
-      "version_requirement":"4.x"
-    }
   ],
   "operatingsystem_support": [
     {

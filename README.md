@@ -19,24 +19,24 @@ The aws agent module installs, configures, and manages the AWS aws agent service
 
 ## Setup
 
-### Beginning with aws_agent
+### Beginning with corp104_aws_agent
 
-`include '::aws_agent'` is enough to get you up and running.
+`include '::corp104_aws_agent'` is enough to get you up and running.
 
 ## Usage
 
-All parameters for the ntp module are contained within the main `::aws_agent` class, so for any function of the module, set the options you want. See the common usages below for examples.
+All parameters for the ntp module are contained within the main `::corp104_aws_agent` class, so for any function of the module, set the options you want. See the common usages below for examples.
 
 ### Install and enable AWS Agent
 
 ```puppet
-include '::aws_agent'
+include '::corp104_aws_agent'
 ```
 
 ### Configuring AWS Agent to Use a Proxy
 
 ```puppet
-class { '::aws_agent':
+class { '::corp104_aws_agent':
   http_proxy  => 'http://change.proxy.com:3128',
   no_proxy    => '169.254.169.254',
 }
@@ -48,16 +48,16 @@ class { '::aws_agent':
 
 #### Public classes
 
-* aws_agent: Main class, includes all other classes.
+* corp104_aws_agent: Main class, includes all other classes.
 
 #### Private classes
 
-* aws_agent::install: Handles the packages.
-* aws_agent::service: Handles the service.
+* corp104_aws_agent::install: Handles the packages.
+* corp104_aws_agent::service: Handles the service.
 
 ## Parameters
 
-The following parameters are available in the `::aws_agent` class:
+The following parameters are available in the `::corp104_aws_agent` class:
 
 #### `aws_agent_download_url`
 

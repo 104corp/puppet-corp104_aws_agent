@@ -1,7 +1,7 @@
 # Class: corp104_aws_agent
 # ===========================
 #
-# Full description of class aws_agent here.
+# Full description of class corp104_aws_agent here.
 #
 # Parameters
 # ----------
