@@ -1,12 +1,12 @@
 {
-  "name": "shazi7804-aws_agent",
+  "name": "corp104-aws_agent",
   "version": "0.1.4",
-  "author": "shazi7804",
+  "author": "corp104",
   "summary": "Install, deploysm, and configures AWS agent services.",
   "license": "Apache-2.0",
-  "source": "https://github.com/shazi7804/puppet-aws_agent",
-  "project_page": "https://github.com/shazi7804/puppet-aws_agent",
-  "issues_url": "https://github.com/shazi7804/puppet-aws_agent/issues",
+  "source": "https://github.com/104corp/puppet-corp104_aws_agent",
+  "project_page": "https://github.com/104corp/puppet-corp104_aws_agent",
+  "issues_url": "https://github.com/104corp/puppet-corp104_aws_agent/issues",
   "dependencies": [
     {
       "name":"puppetlabs-stdlib",

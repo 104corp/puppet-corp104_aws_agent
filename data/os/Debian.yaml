@@ -1,1 +1,1 @@
-aws_agent::package_provider: 'deb'
+corp104_aws_agent::package_provider: 'deb'

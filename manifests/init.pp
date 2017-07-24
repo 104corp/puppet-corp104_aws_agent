@@ -1,4 +1,4 @@
-# Class: aws_agent
+# Class: corp104_aws_agent
 # ===========================
 #
 # Full description of class aws_agent here.
@@ -28,7 +28,7 @@
 # --------
 #
 # @example
-#    class { 'aws_agent':
+#    class { 'corp104_aws_agent':
 #      servers => [ 'pool.ntp.org', 'ntp.local.company.com' ],
 #    }
 #
@@ -42,7 +42,7 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class aws_agent (
+class corp104_aws_agent (
   String $aws_agent_download_url,
   String $aws_tmp_file,
   Boolean $proxy_install_manage,
@@ -55,10 +55,10 @@ class aws_agent (
   String $service_name,
   String $awsagent_bin,
 ) {
-  contain aws_agent::install
-  contain aws_agent::service
+  contain corp104_aws_agent::install
+  contain corp104_aws_agent::service
 
-  Class['::aws_agent::install']
-  ~> Class['::aws_agent::service']
+  Class['::corp104_aws_agent::install']
+  ~> Class['::corp104_aws_agent::service']
 }
 

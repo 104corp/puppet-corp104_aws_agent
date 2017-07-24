@@ -1,1 +1,1 @@
-aws_agent::package_provider: 'dpkg'
+corp104_aws_agent::package_provider: 'dpkg'
