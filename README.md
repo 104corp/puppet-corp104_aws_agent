@@ -104,4 +104,4 @@ For more information, see our [module contribution guide.](https://docs.puppetla
 
 ### Contributors
 
-To see who's already involved, see the [list of contributors.](https://github.com/puppetlabs/puppetlabs-ntp/graphs/contributors)
+To see who's already involved, see the [list of contributors.](https://github.com/104corp/puppet-corp104_aws_agent/graphs/contributors)
