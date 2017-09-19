@@ -1,7 +1,7 @@
 {
-  "name": "corp104-corp104_aws_agent",
+  "name": "104corp-corp104_aws_agent",
   "version": "0.1.4",
-  "author": "corp104",
+  "author": "104corp",
   "summary": "Install, deploysm, and configures AWS agent services.",
   "license": "Apache-2.0",
   "source": "https://github.com/104corp/puppet-corp104_aws_agent",
